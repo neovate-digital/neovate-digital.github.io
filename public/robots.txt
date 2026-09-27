@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://neovate.dev/sitemap.xml
