@@ -1,0 +1,11 @@
+---
+// The wordmark as outlined paths (built by brand/logo/build.py), coloured by the parent's text colour.
+import raw from '../../brand/logo/wordmark-ink.svg?raw';
+
+const svg = raw
+  .replace(/<title>.*?<\/title>\s*/, '')
+  .replace(/ width="[^"]*" height="[^"]*"/, '')
+  .replace(/ role="img" aria-label="[^"]*"/, ' aria-hidden="true" focusable="false"')
+  .replace(/fill="#[0-9A-Fa-f]{6}"/, 'fill="currentColor"');
+---
+<Fragment set:html={svg} />

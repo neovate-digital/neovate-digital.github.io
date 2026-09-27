@@ -104,12 +104,14 @@ a {
 }
 
 .logo {
-  font-size: var(--s1);
-  font-weight: 750;
-  font-variation-settings: 'SHRP' 100;
-  letter-spacing: -0.03em;
-  text-decoration: none;
+  display: block;
   margin-right: auto;
+  color: inherit;
+}
+.logo svg {
+  display: block;
+  height: 1.05rem;
+  width: auto;
 }
 
 .nav {

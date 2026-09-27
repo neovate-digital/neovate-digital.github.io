@@ -46,3 +46,17 @@ Custom domain `neovate.dev`:
    - `www` → `CNAME` → `neovate-digital.github.io`
 2. Repo → Settings → Pages → Custom domain: `neovate.dev`, then tick **Enforce HTTPS** once the certificate is issued.
 3. Recommended: verify the domain for the org (Org settings → Pages → Add a domain) so nobody else can claim it.
+
+## Logo
+
+Files in `brand/logo/`, all outlined paths (no font needed):
+
+| File | Use |
+|---|---|
+| `wordmark-paper.svg` / `wordmark-ink.svg` / `wordmark-cobalt.svg` | Wordmark on dark, light or white backgrounds |
+| `logo-cobalt.svg` | Presentation lockup with clear space |
+| `mark.svg` | Rounded "n" mark — favicon, app icon |
+| `mark-square.svg`, `mark-180.png` | Full-bleed mark for avatars that crop to a circle |
+
+Wordmark: Geologica, weight 800, sharpness 100, tracking −0.028 em. Colours: cobalt `#2437D6`, paper `#EEF1F5`,
+ink `#15171F`. Rebuild with `python brand/logo/build.py` (needs `fonttools[woff]`, `brotli`, `skia-pathops`).

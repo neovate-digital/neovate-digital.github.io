@@ -2,6 +2,7 @@
 import '@fontsource-variable/geologica/full.css';
 import '../styles/global.css';
 import { locales } from '../i18n';
+import Logo from '../components/Logo.astro';
 ---
 <!doctype html>
 <html lang="en">
@@ -14,7 +15,7 @@ import { locales } from '../i18n';
   </head>
   <body class="blue">
     <main class="wrap notfound">
-      <a class="logo" href="/">neovate</a>
+      <a class="logo" href="/" aria-label="Neovate"><Logo /></a>
       <p class="notfound-code" aria-hidden="true">404</p>
       {locales.map((l) => (
         <section lang={l.code} class="notfound-row">
