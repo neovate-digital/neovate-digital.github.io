@@ -2,9 +2,9 @@ import type { Dictionary } from './en';
 
 const pl: Dictionary = {
   meta: {
-    title: 'Neovate — studio software w Pradze',
+    title: 'Neovate — studio programistyczne w Pradze',
     description:
-      'Neovate tworzy produkty blockchain, fintech i AI, aplikacje webowe, strony docelowe i projekty graficzne. Trzech inżynierów na pełny etat, QA i design in-house, siedziba w Pradze.',
+      'Neovate tworzy produkty blockchain, fintech i AI, aplikacje webowe, strony docelowe i projekty graficzne. Trzech inżynierów na pełny etat, własne QA i projektowanie, siedziba w Pradze.',
   },
   nav: {
     services: 'Czym się zajmujemy',
@@ -13,17 +13,17 @@ const pl: Dictionary = {
     process: 'Jak pracujemy',
     contact: 'Kontakt',
     language: 'Język',
-    skip: 'Przejdź do treści',
+    skip: 'Do treści',
   },
   hero: {
     title: 'Projektujemy, budujemy i testujemy oprogramowanie — od smart kontraktów po strony docelowe.',
-    lead: 'Neovate to studio software z Pragi. Trzech inżynierów na pełny etat, testerzy QA i własny zespół designu prowadzą produkt od pierwszego szkicu aż po wdrożenie — i zostają, by utrzymywać go w ruchu.',
+    lead: 'Neovate to studio programistyczne z Pragi. Trzech inżynierów na pełny etat, testerzy QA i własny zespół projektowy prowadzą produkt od pierwszego szkicu aż po wdrożenie — i zostają, by dbać o jego działanie.',
     primary: 'Rozpocznij projekt',
-    secondary: 'Zobacz nasze projekty',
+    secondary: 'Zobacz projekty',
   },
   services: {
     title: 'Czym się zajmujemy',
-    lead: 'Budowaliśmy w wystarczająco wielu obszarach, by wiedzieć, gdzie projekty się psują. Nasza praca mieści się głównie w sześciu obszarach.',
+    lead: 'Tworzyliśmy oprogramowanie dla wystarczająco wielu branż, by wiedzieć, gdzie projekty napotykają problemy. Nasza praca mieści się głównie w sześciu obszarach.',
     items: [
       {
         name: 'Blockchain i web3',
@@ -42,12 +42,12 @@ const pl: Dictionary = {
       },
       {
         name: 'Aplikacje webowe i strony docelowe',
-        text: 'Od jednostronicowej strony startowej po pełną platformę z kontami, panelami administracyjnymi i funkcjami w czasie rzeczywistym.',
+        text: 'Od jednostronicowej witryny na premierę produktu po pełną platformę z kontami, panelami administracyjnymi i funkcjami w czasie rzeczywistym.',
         tags: ['React', 'TypeScript', 'Node.js', 'Bun'],
       },
       {
-        name: 'Design produktu i interfejsu',
-        text: 'Badania, ścieżki użytkownika, projektowanie interfejsów i systemy projektowe — tworzone przez ludzi, którzy siedzą tuż obok kodu.',
+        name: 'Projektowanie produktu i interfejsu',
+        text: 'Badania, ścieżki użytkownika, projektowanie interfejsów i systemy projektowe — tworzone przez ludzi, którzy pracują ramię w ramię z programistami.',
         tags: ['Figma', 'Systemy projektowe', 'Prototypy'],
       },
       {
@@ -65,12 +65,12 @@ const pl: Dictionary = {
     },
     work: {
       name: 'W sposobie pracy',
-      text: 'AI przyspiesza kodowanie, testowanie i research, dzięki czemu mały zespół działa jak znacznie większy. Każdą linijkę kodu trafiającą na produkcję sprawdza inżynier, a QA testuje ją tak jak każdy inny kod.',
+      text: 'AI przyspiesza programowanie, testowanie i badania, dzięki czemu mały zespół działa jak większy. Każdą linijkę kodu trafiającą na produkcję sprawdza inżynier, a QA testuje ją tak jak każdy inny kod.',
     },
   },
   work: {
     title: 'Wybrane projekty',
-    lead: 'Kilka projektów, które możemy pokazać publicznie. Znacznie więcej ukrywa się pod NDA — wystarczy zapytać.',
+    lead: 'Kilka projektów, które możemy pokazać publicznie. Znacznie więcej obejmują umowy NDA — wystarczy zapytać.',
     visit: 'Otwórz',
     items: [
       {
@@ -78,7 +78,11 @@ const pl: Dictionary = {
         text: 'Protokół tokenów indeksowych zbudowany na pozycjach płynności Uniswap V4. Stworzyliśmy smart kontrakty, aplikację handlową, panel administracyjny oraz warstwę indeksującą.',
       },
       {
-        kind: 'Zagadkowe doświadczenie',
+        kind: 'Narzędzia dla programistów web3',
+        text: 'Darmowe narzędzia dla twórców smart kontraktów: dekodowanie calldata, łączenie z dowolną dApp jako dowolny adres i przegląd zatwierdzeń tokenów. Działa w przeglądarce, bez zakładania konta.',
+      },
+      {
+        kind: 'Gra z zagadkami',
         text: 'Dwa tajemnicze pudełka i jeden wspólny sekret: kooperacyjny eksperyment offline w formie zagadki.',
       },
       {
@@ -90,7 +94,7 @@ const pl: Dictionary = {
   },
   team: {
     title: 'Z kim się współpracuje',
-    lead: 'Między zamawiającym a osobami wykonującymi pracę nie ma menedżerów kont — rozmawia się bezpośrednio z inżynierami.',
+    lead: 'Między zamawiającym a osobami wykonującymi pracę nie ma opiekunów klienta — rozmawia się bezpośrednio z inżynierami.',
     items: [
       {
         name: 'Trzech inżynierów na pełny etat',
@@ -101,8 +105,8 @@ const pl: Dictionary = {
         text: 'Testują każde wydanie, zanim trafi do klienta, i piszą automatyczne testy, które później pilnują, żeby wszystko dalej działało.',
       },
       {
-        name: 'Design',
-        text: 'Interfejsy, prototypy i identyfikacja marki — tworzone wewnętrznie, tuż obok kodu.',
+        name: 'Projektowanie',
+        text: 'Interfejsy, prototypy i praca nad marką — tworzone przez nasz zespół, w ścisłej współpracy z programistami.',
       },
     ],
   },
@@ -110,15 +114,15 @@ const pl: Dictionary = {
     title: 'Jak pracujemy',
     steps: [
       { name: 'Rozmowa', text: 'Bezpłatna rozmowa o potrzebach projektu. Szczerze powiemy, czy jesteśmy odpowiednim zespołem do tego zadania.' },
-      { name: 'Zakres', text: 'Pisemny plan z kamieniami milowymi, wyceną i jasno określonym pierwszym wydaniem.' },
-      { name: 'Budowa', text: 'Działające oprogramowanie do przeklikania co tydzień, a nie tylko raporty statusu.' },
+      { name: 'Zakres', text: 'Pisemny plan z kamieniami milowymi, szacunkową wyceną i jasno określonym pierwszym wydaniem.' },
+      { name: 'Budowa', text: 'Działające oprogramowanie do przeklikania co tydzień, a nie tylko raporty z postępów.' },
       { name: 'Testy i wdrożenie', text: 'QA daje zielone światło, wdrażamy i obserwujemy pierwsze dni na produkcji.' },
       { name: 'Wsparcie', text: 'Zostajemy, żeby naprawiać, ulepszać i skalować to, co zbudowaliśmy.' },
     ],
   },
   contact: {
-    title: 'Napisz, co budujesz',
-    lead: 'Napisz kilka zdań o projekcie. Zwykle odpowiadamy w ciągu jednego dnia roboczego.',
+    title: 'Co powstaje?',
+    lead: 'Wystarczy kilka zdań o projekcie. Zwykle odpowiadamy w ciągu jednego dnia roboczego.',
     email: 'Napisz do nas',
     company: 'Dane firmy',
     country: 'Czechy',
@@ -129,8 +133,8 @@ const pl: Dictionary = {
   },
   notFound: {
     title: 'Ta strona nie istnieje',
-    text: 'Link mógł być nieaktualny albo błędnie wpisany.',
-    home: 'Przejdź do strony głównej',
+    text: 'Link może być nieaktualny albo błędnie wpisany.',
+    home: 'Do strony głównej',
   },
 };
 

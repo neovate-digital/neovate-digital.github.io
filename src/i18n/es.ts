@@ -16,18 +16,18 @@ const es: Dictionary = {
     skip: 'Saltar al contenido',
   },
   hero: {
-    title: 'Diseñamos, construimos y probamos software, desde smart contracts hasta landing pages.',
-    lead: 'Neovate es un estudio de software en Praga. Tres ingenieros a tiempo completo, testers de QA y diseño propio llevan tu producto desde el primer boceto hasta producción, y se quedan para mantenerlo funcionando.',
+    title: 'Diseñamos, construimos y probamos software, desde contratos inteligentes hasta landing pages.',
+    lead: 'Neovate es un estudio de software en Praga. Tres ingenieros a tiempo completo, especialistas en QA y diseñadores de nuestro equipo llevan tu producto desde el primer boceto hasta producción, y se quedan para mantenerlo funcionando.',
     primary: 'Empezar un proyecto',
     secondary: 'Ver nuestro trabajo',
   },
   services: {
     title: 'Qué hacemos',
-    lead: 'Hemos construido en suficientes ámbitos como para saber dónde fallan los proyectos. La mayor parte de nuestro trabajo cae en seis áreas.',
+    lead: 'Hemos desarrollado software en suficientes sectores para saber dónde fallan los proyectos. La mayor parte de nuestro trabajo se concentra en seis áreas.',
     items: [
       {
         name: 'Blockchain y web3',
-        text: 'Smart contracts, protocolos DeFi, wallets y dApps. Lanzamos un protocolo de index-token en Uniswap V4, desde los contratos hasta la interfaz de trading.',
+        text: 'Contratos inteligentes, protocolos DeFi, monederos y dApps. Lanzamos un protocolo de tokens de índice en Uniswap V4, desde los contratos hasta la interfaz de trading.',
         tags: ['Solidity', 'EVM', 'Uniswap V4', 'wagmi / viem', 'Subgraphs'],
       },
       {
@@ -37,7 +37,7 @@ const es: Dictionary = {
       },
       {
         name: 'Productos de IA y automatización',
-        text: 'Funciones de modelos de lenguaje dentro de tu producto, agentes que asumen el trabajo rutinario, y búsqueda en tus propios documentos.',
+        text: 'Funciones basadas en modelos de lenguaje dentro de tu producto, agentes que asumen el trabajo rutinario y búsqueda en tus propios documentos.',
         tags: ['LLM APIs', 'Agentes', 'RAG', 'Automatización'],
       },
       {
@@ -47,25 +47,25 @@ const es: Dictionary = {
       },
       {
         name: 'Diseño de producto e interfaz',
-        text: 'Investigación, flujos de usuario, diseño de interfaz y sistemas de diseño, hechos por personas que se sientan junto al código.',
+        text: 'Investigación, flujos de usuario, diseño de interfaz y sistemas de diseño, creados por personas que trabajan codo a codo con los desarrolladores.',
         tags: ['Figma', 'Sistemas de diseño', 'Prototipos'],
       },
       {
-        name: 'QA y testing',
-        text: 'Testers dedicados revisan cada release a mano y con pruebas automatizadas antes de que llegue a tus usuarios.',
-        tags: ['QA manual', 'Pruebas de extremo a extremo', 'Regresión'],
+        name: 'QA y pruebas',
+        text: 'Nuestro equipo de QA revisa cada versión de forma manual y con pruebas automatizadas antes de que llegue a tus usuarios.',
+        tags: ['QA manual', 'Pruebas de extremo a extremo', 'Pruebas de regresión'],
       },
     ],
   },
   ai: {
-    title: 'IA en tu producto, y en cómo trabajamos',
+    title: 'IA en tu producto y en cómo trabajamos',
     product: {
       name: 'En tu producto',
-      text: 'Asistentes que conocen tus datos, procesamiento automático de documentos y facturas, clasificación, búsqueda inteligente, y agentes que completan tareas de varios pasos por su cuenta.',
+      text: 'Asistentes que conocen tus datos, procesamiento automático de documentos y facturas, clasificación, búsqueda inteligente y agentes que completan tareas de varios pasos por su cuenta.',
     },
     work: {
       name: 'En cómo construimos',
-      text: 'La IA acelera nuestro desarrollo, pruebas e investigación, así un equipo pequeño se mueve como uno más grande. Un ingeniero revisa cada línea que se publica, y QA la prueba como a cualquier otro código.',
+      text: 'La IA acelera el desarrollo, las pruebas y la investigación, de modo que un equipo pequeño trabaja como uno más grande. Un ingeniero revisa cada línea antes del lanzamiento y QA la prueba como cualquier otro código.',
     },
   },
   work: {
@@ -75,34 +75,38 @@ const es: Dictionary = {
     items: [
       {
         kind: 'Protocolo DeFi',
-        text: 'Un protocolo de index-token construido sobre posiciones de liquidez de Uniswap V4. Construimos los smart contracts, la app de trading, el panel de administración y la capa de indexación.',
+        text: 'Un protocolo de tokens de índice construido sobre posiciones de liquidez de Uniswap V4. Construimos los contratos inteligentes, la app de trading, el panel de administración y la capa de indexación.',
       },
       {
-        kind: 'Experiencia de puzzle',
-        text: 'Dos cajas misteriosas y un secreto compartido: un experimento cooperativo de puzzle sin conexión.',
+        kind: 'Herramientas para desarrolladores web3',
+        text: 'Herramientas gratuitas para desarrolladores de contratos inteligentes: decodifica calldata, conéctate a cualquier dApp como cualquier dirección y revisa las aprobaciones de tokens. Funciona en el navegador, sin cuenta.',
+      },
+      {
+        kind: 'Experiencia de acertijos',
+        text: 'Dos cajas misteriosas y un secreto compartido: un experimento cooperativo de acertijos sin conexión.',
       },
       {
         kind: 'Plataforma de quiz en vivo',
-        text: 'Crea un quiz, ejecútalo en vivo, y deja que todos jueguen desde su teléfono con un código de seis dígitos.',
+        text: 'Crea un quiz, preséntalo en vivo y deja que todos jueguen desde su teléfono con un código de seis dígitos.',
       },
     ],
     more: 'Y muchos más bajo NDA: herramientas bancarias, plataformas internas, productos web3 y landing pages.',
   },
   team: {
     title: 'Con quién vas a trabajar',
-    lead: 'No hay account managers entre tú y las personas que hacen el trabajo. Hablas directamente con los ingenieros.',
+    lead: 'No hay gestores de cuentas entre tú y las personas que hacen el trabajo. Hablas directamente con los ingenieros.',
     items: [
       {
         name: 'Tres ingenieros a tiempo completo',
-        text: 'Desarrolladores experimentados en frontend, backend y smart contracts. Las mismas personas te acompañan desde el arranque hasta el lanzamiento.',
+        text: 'Desarrolladores experimentados en frontend, backend y contratos inteligentes. Las mismas personas te acompañan desde el arranque hasta el lanzamiento.',
       },
       {
-        name: 'Testers de QA',
-        text: 'Prueban cada release antes de que la veas, y escriben las verificaciones automatizadas que la mantienen funcionando después.',
+        name: 'Especialistas en QA',
+        text: 'Prueban cada versión antes de que la veas y crean las pruebas automatizadas que garantizan que siga funcionando después.',
       },
       {
         name: 'Diseño',
-        text: 'Interfaces, prototipos y trabajo de marca hechos internamente, justo al lado del código.',
+        text: 'Interfaces, prototipos y trabajo de marca creados por nuestro equipo, en estrecha colaboración con los desarrolladores.',
       },
     ],
   },
@@ -110,9 +114,9 @@ const es: Dictionary = {
     title: 'Cómo trabajamos',
     steps: [
       { name: 'Hablar', text: 'Una llamada gratuita sobre lo que necesitas. Te diremos con honestidad si somos el equipo indicado.' },
-      { name: 'Definir alcance', text: 'Un plan escrito con hitos, una estimación y un primer lanzamiento claro.' },
+      { name: 'Definir alcance', text: 'Un plan escrito con hitos, una estimación y una primera versión bien definida.' },
       { name: 'Construir', text: 'Software funcional que puedes probar cada semana, no solo informes de estado.' },
-      { name: 'Probar y lanzar', text: 'QA da su aprobación, desplegamos, y vigilamos los primeros días en producción.' },
+      { name: 'Probar y lanzar', text: 'QA da su aprobación, desplegamos y vigilamos los primeros días en producción.' },
       { name: 'Soporte', text: 'Nos quedamos para corregir, mejorar y escalar lo que construimos.' },
     ],
   },

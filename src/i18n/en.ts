@@ -76,6 +76,10 @@ const en = {
         text: 'An index-token protocol built on Uniswap V4 liquidity positions. We built the smart contracts, the trading app, the admin dashboard and the indexing layer.',
       },
       {
+        kind: 'Developer toolkit for web3',
+        text: 'Free tools for smart contract developers: decode calldata, connect to any dApp as any address, and review token approvals. Runs in the browser, no account needed.',
+      },
+      {
         kind: 'Puzzle experience',
         text: 'Two mysterious boxes and one shared secret: an offline cooperative puzzle experiment.',
       },

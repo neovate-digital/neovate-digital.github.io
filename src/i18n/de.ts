@@ -4,7 +4,7 @@ const de: Dictionary = {
   meta: {
     title: 'Neovate — Software-Studio in Prag',
     description:
-      'Neovate entwickelt Blockchain-, Fintech- und KI-Produkte, Web-Apps, Landingpages und Designs. Drei fest angestellte Entwickler mit QA und Design im Haus, ansässig in Prag.',
+      'Neovate entwickelt Blockchain-, Fintech- und KI-Produkte, Web-Apps, Landingpages und Designs. Drei Vollzeitentwickler mit QA und Design im Haus, ansässig in Prag.',
   },
   nav: {
     services: 'Leistungen',
@@ -17,13 +17,13 @@ const de: Dictionary = {
   },
   hero: {
     title: 'Wir entwerfen, bauen und testen Software, vom Smart Contract bis zur Landingpage.',
-    lead: 'Neovate ist ein Software-Studio in Prag. Drei fest angestellte Entwickler, QA-Tester und Design im Haus begleiten Ihr Produkt von der ersten Skizze bis in die Produktion — und bleiben, damit es läuft.',
+    lead: 'Neovate ist ein Software-Studio in Prag. Drei Vollzeitentwickler, QA-Tester und unsere eigenen Designer begleiten Ihr Produkt von der ersten Skizze bis in die Produktion — und bleiben, damit es läuft.',
     primary: 'Projekt starten',
     secondary: 'Projekte ansehen',
   },
   services: {
     title: 'Leistungen',
-    lead: 'Wir haben in genug Bereichen gebaut, um zu wissen, wo Projekte scheitern. Unsere Arbeit lässt sich in sechs Bereiche einteilen.',
+    lead: 'Wir haben Software für genügend Branchen entwickelt, um zu wissen, wo Projekte scheitern. Der Großteil unserer Arbeit fällt in sechs Bereiche.',
     items: [
       {
         name: 'Blockchain und Web3',
@@ -33,11 +33,11 @@ const de: Dictionary = {
       {
         name: 'Banking und Fintech',
         text: 'Zahlungsabläufe, Konto-Dashboards und Anbindungen an Banken und Buchhaltungssysteme. Software, bei der jede Zahl stimmen muss.',
-        tags: ['Bank-APIs', 'Zahlungen', 'Abgleich', 'Reporting'],
+        tags: ['Bank-APIs', 'Zahlungen', 'Kontenabstimmung', 'Berichte'],
       },
       {
         name: 'KI-Produkte und Automatisierung',
-        text: 'Sprachmodell-Funktionen in Ihrem Produkt, Agenten, die Routinearbeit übernehmen, und Suche über Ihre eigenen Dokumente.',
+        text: 'Sprachmodell-Funktionen in Ihrem Produkt, Agenten, die Routinearbeit übernehmen, und eine Suche in Ihren eigenen Dokumenten.',
         tags: ['LLM APIs', 'Agenten', 'RAG', 'Automatisierung'],
       },
       {
@@ -47,13 +47,13 @@ const de: Dictionary = {
       },
       {
         name: 'Produkt- und Interface-Design',
-        text: 'Recherche, User Flows, Interface-Design und Designsysteme — von Leuten, die direkt neben dem Code sitzen.',
+        text: 'Recherche, User Flows, Interface-Design und Designsysteme — von Menschen, die eng mit unseren Entwicklern zusammenarbeiten.',
         tags: ['Figma', 'Designsysteme', 'Prototypen'],
       },
       {
         name: 'QA und Testing',
         text: 'Dedizierte Tester prüfen jedes Release von Hand und mit automatisierten Tests, bevor es Ihre Nutzer erreicht.',
-        tags: ['Manuelle QA', 'End-to-End-Tests', 'Regression'],
+        tags: ['Manuelle QA', 'End-to-End-Tests', 'Regressionstests'],
       },
     ],
   },
@@ -65,7 +65,7 @@ const de: Dictionary = {
     },
     work: {
       name: 'In unserer Arbeitsweise',
-      text: 'KI beschleunigt unser Coding, Testing und Recherchieren, sodass ein kleines Team wie ein größeres arbeitet. Ein Entwickler prüft jede Zeile vor dem Release, und QA testet sie wie jeden anderen Code.',
+      text: 'KI beschleunigt unsere Entwicklung, Tests und Recherche, sodass ein kleines Team wie ein größeres arbeitet. Ein Entwickler prüft jede Zeile vor dem Release, und QA testet sie wie jeden anderen Code.',
     },
   },
   work: {
@@ -78,12 +78,16 @@ const de: Dictionary = {
         text: 'Ein Index-Token-Protokoll auf Basis von Uniswap-V4-Liquiditätspositionen. Wir haben die Smart Contracts, die Trading-App, das Admin-Dashboard und die Indexierungsschicht gebaut.',
       },
       {
+        kind: 'Toolkit für Web3-Entwickler',
+        text: 'Kostenlose Tools für Smart-Contract-Entwickler: Calldata dekodieren, sich mit jeder dApp als beliebige Adresse verbinden und Token-Freigaben prüfen. Läuft im Browser, ohne Konto.',
+      },
+      {
         kind: 'Rätsel-Erlebnis',
         text: 'Zwei rätselhafte Boxen und ein gemeinsames Geheimnis: ein Offline-Kooperationsrätsel als Experiment.',
       },
       {
         kind: 'Live-Quiz-Plattform',
-        text: 'Quiz erstellen, live durchführen, und alle spielen vom eigenen Handy mit einem sechsstelligen Code mit.',
+        text: 'Erstellen Sie ein Quiz, führen Sie es live durch und lassen Sie alle per Handy mit einem sechsstelligen Code mitspielen.',
       },
     ],
     more: 'Und viele weitere unter NDA: Banking-Tools, interne Plattformen, Web3-Produkte und Landingpages.',
@@ -93,7 +97,7 @@ const de: Dictionary = {
     lead: 'Zwischen Ihnen und den Leuten, die die Arbeit machen, sitzen keine Account-Manager. Sie sprechen direkt mit den Entwicklern.',
     items: [
       {
-        name: 'Drei fest angestellte Entwickler',
+        name: 'Drei Vollzeitentwickler',
         text: 'Erfahrene Entwickler für Frontend, Backend und Smart Contracts. Dieselben Leute bleiben vom Kickoff bis zum Launch an Ihrer Seite.',
       },
       {
@@ -102,7 +106,7 @@ const de: Dictionary = {
       },
       {
         name: 'Design',
-        text: 'Interfaces, Prototypen und Markenarbeit — im Haus, direkt neben dem Code.',
+        text: 'Interfaces, Prototypen und Markenarbeit — intern, in enger Zusammenarbeit mit unseren Entwicklern.',
       },
     ],
   },
@@ -110,15 +114,15 @@ const de: Dictionary = {
     title: 'Arbeitsweise',
     steps: [
       { name: 'Gespräch', text: 'Ein kostenloses Gespräch über Ihr Vorhaben. Wir sagen Ihnen ehrlich, ob wir das richtige Team sind.' },
-      { name: 'Scope', text: 'Ein schriftlicher Plan mit Meilensteinen, einer Schätzung und einem klaren ersten Release.' },
-      { name: 'Umsetzung', text: 'Funktionierende Software, die Sie jede Woche anklicken können — keine bloßen Statusberichte.' },
+      { name: 'Projektumfang', text: 'Ein schriftlicher Plan mit Meilensteinen, einer Schätzung und einem klar definierten ersten Release.' },
+      { name: 'Umsetzung', text: 'Funktionierende Software, die Sie jede Woche durchklicken können — keine bloßen Statusberichte.' },
       { name: 'Test und Launch', text: 'QA gibt frei, wir deployen und beobachten die ersten Tage im Produktivbetrieb.' },
       { name: 'Support', text: 'Wir bleiben an Bord, um das Gebaute zu pflegen, zu verbessern und zu skalieren.' },
     ],
   },
   contact: {
     title: 'Erzählen Sie uns, was Sie bauen',
-    lead: 'Schreiben Sie ein paar Zeilen zu Ihrem Projekt. Wir antworten meist innerhalb eines Werktags.',
+    lead: 'Schreiben Sie ein paar Zeilen zu Ihrem Projekt. Wir antworten meist innerhalb eines Arbeitstags.',
     email: 'Schreiben Sie uns',
     company: 'Firmendaten',
     country: 'Tschechische Republik',

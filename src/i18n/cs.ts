@@ -4,7 +4,7 @@ const cs: Dictionary = {
   meta: {
     title: 'Neovate — softwarové studio v Praze',
     description:
-      'Neovate vyvíjí blockchainové, fintech a AI produkty, webové aplikace, landing page a design. Tři full-time inženýři, QA a design in-house, sídlíme v Praze.',
+      'Neovate vyvíjí blockchainové, fintech a AI produkty, webové aplikace a vstupní stránky a tvoří design. Tři vývojáři na plný úvazek, vlastní QA a design, sídlo v Praze.',
   },
   nav: {
     services: 'Co děláme',
@@ -16,8 +16,8 @@ const cs: Dictionary = {
     skip: 'Přeskočit na obsah',
   },
   hero: {
-    title: 'Navrhujeme, vyvíjíme a testujeme software, od smart kontraktů po landing page.',
-    lead: 'Neovate je softwarové studio v Praze. Tři full-time inženýři, QA testeři a design in-house dovedou váš produkt od prvního nápadu do provozu a zůstanou, aby fungoval dál.',
+    title: 'Navrhujeme, vyvíjíme a testujeme software, od smart kontraktů po vstupní stránky.',
+    lead: 'Neovate je softwarové studio v Praze. Tři vývojáři na plný úvazek, QA testeři a vlastní designéři dovedou váš produkt od prvního náčrtu do provozu a zajistí, aby fungoval dál.',
     primary: 'Začít projekt',
     secondary: 'Podívat se na naši práci',
   },
@@ -27,13 +27,13 @@ const cs: Dictionary = {
     items: [
       {
         name: 'Blockchain a web3',
-        text: 'Smart kontrakty, DeFi protokoly, peněženky a dApps. Nasadili jsme index-token protokol na Uniswap V4, od kontraktů po obchodní rozhraní.',
+        text: 'Smart kontrakty, DeFi protokoly, peněženky a dApps. Nasadili jsme protokol indexových tokenů na Uniswap V4, od kontraktů po obchodní rozhraní.',
         tags: ['Solidity', 'EVM', 'Uniswap V4', 'wagmi / viem', 'Subgraphs'],
       },
       {
         name: 'Bankovnictví a fintech',
         text: 'Platební toky, přehledy účtů a integrace s bankami a účetními systémy. Software, kde musí sedět každé číslo.',
-        tags: ['Bankovní API', 'Platby', 'Rekonciliace', 'Reporting'],
+        tags: ['Bankovní API', 'Platby', 'Rekonciliace', 'Výkaznictví'],
       },
       {
         name: 'AI produkty a automatizace',
@@ -41,19 +41,19 @@ const cs: Dictionary = {
         tags: ['LLM APIs', 'Agenti', 'RAG', 'Automatizace'],
       },
       {
-        name: 'Webové aplikace a landing page',
-        text: 'Od jednostránkového launch webu po plnou platformu s účty, administrací a real-time funkcemi.',
+        name: 'Webové aplikace a vstupní stránky',
+        text: 'Od jednostránkového webu pro uvedení produktu po plnohodnotnou platformu s účty, administrací a funkcemi v reálném čase.',
         tags: ['React', 'TypeScript', 'Node.js', 'Bun'],
       },
       {
         name: 'Design produktu a rozhraní',
-        text: 'Research, uživatelské flow, design rozhraní a design systémy, dělané lidmi, kteří sedí hned vedle kódu.',
-        tags: ['Figma', 'Design systémy', 'Prototypy'],
+        text: 'Výzkum, uživatelské scénáře, design rozhraní a designové systémy od lidí, kteří pracují bok po boku s vývojáři.',
+        tags: ['Figma', 'Designové systémy', 'Prototypy'],
       },
       {
         name: 'QA a testování',
-        text: 'Dedikovaní testeři kontrolují každý release ručně i pomocí automatizovaných testů, než se dostane k vašim uživatelům.',
-        tags: ['Manuální QA', 'End-to-end testy', 'Regrese'],
+        text: 'Naši QA testeři kontrolují každou verzi ručně i pomocí automatizovaných testů, než se dostane k vašim uživatelům.',
+        tags: ['Manuální QA', 'End-to-end testy', 'Regresní testy'],
       },
     ],
   },
@@ -65,7 +65,7 @@ const cs: Dictionary = {
     },
     work: {
       name: 'V tom, jak vyvíjíme',
-      text: 'AI zrychluje naše programování, testování a research, takže malý tým funguje jako větší. Každý řádek, který jde do provozu, projde inženýrem a QA ho otestuje jako každý jiný kód.',
+      text: 'AI zrychluje naše programování, testování a výzkum, takže malý tým funguje jako větší. Každý řádek kódu před nasazením zkontroluje vývojář a QA ho otestuje jako každý jiný kód.',
     },
   },
   work: {
@@ -75,49 +75,53 @@ const cs: Dictionary = {
     items: [
       {
         kind: 'DeFi protokol',
-        text: 'Index-token protokol postavený na likviditních pozicích Uniswap V4. Postavili jsme smart kontrakty, obchodní aplikaci, admin dashboard i indexovací vrstvu.',
+        text: 'Protokol indexových tokenů postavený na likviditních pozicích Uniswap V4. Postavili jsme smart kontrakty, obchodní aplikaci, administrační panel i indexovací vrstvu.',
       },
       {
-        kind: 'Puzzle zážitek',
-        text: 'Dvě záhadné krabičky a jedno sdílené tajemství: offline kooperativní puzzle experiment.',
+        kind: 'Nástroje pro web3 vývojáře',
+        text: 'Bezplatné nástroje pro vývojáře smart kontraktů: dekódování calldata, připojení k libovolné dApp pod libovolnou adresou a přehled schválení tokenů. Běží v prohlížeči, bez registrace.',
       },
       {
-        kind: 'Živá kvízová platforma',
+        kind: 'Zážitková hlavolamová hra',
+        text: 'Dvě záhadné krabičky a jedno společné tajemství: kooperativní experiment s hlavolamy bez internetu.',
+      },
+      {
+        kind: 'Platforma pro živé kvízy',
         text: 'Vytvořte kvíz, spusťte ho naživo a nechte všechny hrát z telefonu pomocí šestimístného kódu.',
       },
     ],
-    more: 'A mnohem víc pod NDA: bankovní nástroje, interní platformy, web3 produkty a landing page.',
+    more: 'A mnohem víc pod NDA: bankovní nástroje, interní platformy, web3 produkty a vstupní stránky.',
   },
   team: {
     title: 'S kým budete pracovat',
-    lead: 'Mezi vámi a lidmi, kteří práci dělají, nejsou žádní account manažeři. Mluvíte přímo s inženýry.',
+    lead: 'Mezi vámi a lidmi, kteří práci dělají, nejsou žádní account manažeři. Mluvíte přímo s vývojáři.',
     items: [
       {
-        name: 'Tři full-time inženýři',
-        text: 'Zkušení vývojáři napříč frontendem, backendem a smart kontrakty. Stejní lidé jsou s vámi od kickoffu až po launch.',
+        name: 'Tři vývojáři na plný úvazek',
+        text: 'Zkušení vývojáři napříč frontendem, backendem a smart kontrakty. Stejní lidé jsou s vámi od zahájení až po spuštění.',
       },
       {
         name: 'QA testeři',
-        text: 'Otestují každý release, než ho uvidíte, a napíšou automatizované testy, které ho udrží funkční i potom.',
+        text: 'Otestují každou verzi, než ji uvidíte, a napíšou automatizované testy, které zajistí její funkčnost i potom.',
       },
       {
         name: 'Design',
-        text: 'Rozhraní, prototypy a práce na značce vznikají in-house, hned vedle kódu.',
+        text: 'Rozhraní, prototypy a práce na značce vznikají u nás, v úzké spolupráci s vývojáři.',
       },
     ],
   },
   process: {
     title: 'Jak pracujeme',
     steps: [
-      { name: 'Rozhovor', text: 'Nezávazný hovor o tom, co potřebujete. Upřímně vám řekneme, jestli jsme ten správný tým.' },
-      { name: 'Zadání', text: 'Písemný plán s milníky, odhadem a jasně daným prvním releasem.' },
-      { name: 'Vývoj', text: 'Funkční software, kterým si můžete proklikat každý týden, ne jen status reporty.' },
+      { name: 'Rozhovor', text: 'Bezplatný hovor o tom, co potřebujete. Upřímně vám řekneme, jestli jsme ten správný tým.' },
+      { name: 'Zadání', text: 'Písemný plán s milníky, odhadem a jasně vymezenou první verzí.' },
+      { name: 'Vývoj', text: 'Funkční software, který si můžete každý týden proklikat, ne jen zprávy o průběhu.' },
       { name: 'Test a spuštění', text: 'QA dá zelenou, nasadíme a hlídáme první dny v provozu.' },
       { name: 'Podpora', text: 'Zůstáváme, abychom opravovali, vylepšovali a škálovali to, co jsme postavili.' },
     ],
   },
   contact: {
-    title: 'Řekněte nám, co stavíte',
+    title: 'Řekněte nám, co vyvíjíte',
     lead: 'Napište pár řádků o svém projektu. Obvykle odpovíme do jednoho pracovního dne.',
     email: 'Napište nám',
     company: 'Údaje o firmě',
