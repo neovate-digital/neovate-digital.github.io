@@ -1,10 +1,10 @@
-import en, { type Dictionary } from './en';
-import ru from './ru';
-import cs from './cs';
-import uk from './uk';
-import de from './de';
-import es from './es';
-import pl from './pl';
+import en, { type Dictionary } from './en.ts';
+import ru from './ru.ts';
+import cs from './cs.ts';
+import uk from './uk.ts';
+import de from './de.ts';
+import es from './es.ts';
+import pl from './pl.ts';
 
 export const defaultLocale = 'en';
 

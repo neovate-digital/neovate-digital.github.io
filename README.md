@@ -1,14 +1,22 @@
 # neovate.dev
 
-Company website of Neovate s.r.o. — static [Astro](https://astro.build) site in seven languages, deployed to GitHub Pages.
+Company website of Neovate s.r.o. — static [Vite](https://vite.dev) site in seven languages, deployed to GitHub Pages.
 
 ## Develop
 
+Uses [Bun](https://bun.sh).
+
 ```sh
-npm install
-npm run dev      # http://localhost:4321
-npm run build    # static output in dist/
+bun install
+bun run dev      # http://localhost:5173
+bun run build    # static output in dist/
+bun run check    # typecheck
 ```
+
+Pages are rendered at build time from TypeScript templates in `src/pages/` (a small `html` tagged template in
+`src/lib/html.ts` escapes values). The plugin in `vite.config.ts` maps each route to its template, writes
+`<route>/index.html`, `404.html` and `sitemap.xml`, and serves the same routes from the dev server. The only
+client JavaScript is `src/main.ts`, plus the inline first-visit redirect on the English page.
 
 ## Languages
 
@@ -31,7 +39,7 @@ To add a language: create `src/i18n/<code>.ts` typed as `Dictionary`, then add i
 On the first visit to `/`, visitors whose browser language is supported are sent to that version once;
 picking a language from the menu is remembered.
 
-Portfolio links (domain + name) are in `src/components/Page.astro`; their descriptions are in the dictionaries,
+Portfolio links (domain + name) are in `src/pages/home.ts`; their descriptions are in the dictionaries,
 in the same order.
 
 ## Deploy
